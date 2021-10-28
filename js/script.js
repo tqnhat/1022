@@ -65,7 +65,6 @@ $(function () {
     //hide mobile menu
     $("#mobile-nav-close-btn, #mobile-nav a").click(function () {
         $("#mobile-nav").css('height', '0%');
-        $(".navbar-header").css('width', '0%');
     });
 });
 
